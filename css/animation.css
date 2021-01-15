@@ -1,0 +1,21 @@
+body{
+    overflow: hidden;
+}
+
+#conteudo{
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes aparecer{
+    from{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
